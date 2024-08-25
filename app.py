@@ -39,7 +39,7 @@ def main():
         if preço_atual < valor_bitcoin:
             enviar_email("Alerta de preço do Bitcoin", meu_email, email_usuario, f"O preço do Bitcoin caiu para U$ {preço_atual}")
 
- # Fazer a verifica6ção a cada 10 minutos   
+ # Fazer a verificação a cada 10 minutos   
     schedule.every(10).minutes.do(checar_preço)
 
     while True:
