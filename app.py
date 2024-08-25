@@ -5,8 +5,8 @@ import time
 from email.message import EmailMessage
 
 # Credenciais do email que vai mandar as mensagens
-meu_email = "crigos@gmail.com"
-password  = "wksz tyld nclq yaod"
+meu_email = "xxxxxxxxxxxxx"
+password  = "xxxxxxxxxxxxx"
 
 # Solicitar valor e email do usuario
 valor_bitcoin = float(input("Digite o valor limite do bitcoin (em USD): "))
